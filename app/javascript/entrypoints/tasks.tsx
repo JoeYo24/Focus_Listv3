@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Navbar from "../components/navbar";
 
 const Tasks = () => {
   return (
-    <h1 className="text-4xl text-yellow-500">Hello Tasks Page!</h1>
+    <div id="tasks">
+      <Navbar />
+      <h1 className="text-4xl text-yellow-500">Hello Tasks Page!</h1>
+    </div>
+    
   );
 };
 

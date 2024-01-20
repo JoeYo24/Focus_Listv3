@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Navbar from "../components/navbar";
 
 const Home = () => {
   return (
-    <h1 className="text-4xl text-green-500">Hello World!</h1>
+    <div>
+      <Navbar />
+    </div>
   );
 };
 
