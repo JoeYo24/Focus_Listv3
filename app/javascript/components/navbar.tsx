@@ -1,5 +1,7 @@
 import React from 'react';
 import Logo from '../utils/images/png/logo-color.png';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import { AccountBox } from '@mui/icons-material';
 
 const Navbar: React.FC = () => {
   return (
@@ -24,14 +26,7 @@ const Navbar: React.FC = () => {
             </a>
           </div>
           <div>
-            <a href='/login' className='inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-white mt-4 lg:mt-0'>
-              Login
-            </a>
-          </div>
-          <div>
-            <a href='/signup' className='inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-white mt-4 lg:mt-0'>
-              Sign Up
-            </a>
+            <AccountBoxIcon className='text-white' />
           </div>
         </div>
       </nav>
